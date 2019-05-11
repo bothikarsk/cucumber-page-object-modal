@@ -1,0 +1,3 @@
+stepdef\CommonSteps.class
+runner\TestRunner.class
+stepdef\Hooks.class

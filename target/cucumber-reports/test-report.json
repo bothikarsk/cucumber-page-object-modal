@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6254586357,
+              "duration": 5948868591,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 998547687,
+              "duration": 1820264924,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3472800968,
+              "duration": 3048530495,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 12050614493,
+              "duration": 6598615241,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 881687558,
+              "duration": 917980926,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 4662652317,
+              "duration": 4056739120,
               "status": "passed"
             },
             "line": 9,
@@ -83,92 +83,8 @@
         ],
         "tags": [
           {
+            "line": 3,
             "name": "@US232454_T43555"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 7558821952,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.startUp()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Validate free crm home page test2",
-        "description": "",
-        "id": "free-crm-application-test;validate-free-crm-home-page-test2",
-        "after": [
-          {
-            "result": {
-              "duration": 1255446641,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4045770960,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User opens browser",
-            "match": {
-              "location": "CommonSteps.User_opens_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11475499387,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user on home page",
-            "match": {
-              "location": "CommonSteps.user_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 708212405,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user log in",
-            "match": {
-              "location": "CommonSteps.user_log_in()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3163496506,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user log out",
-            "match": {
-              "location": "CommonSteps.user_log_out()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US232454_T43556"
           }
         ]
       }
@@ -177,7 +93,6 @@
     "description": "",
     "id": "free-crm-application-test",
     "keyword": "Feature",
-    "uri": "./src/test/resources/features/CRMLogIn.feature",
-    "tags": []
+    "uri": "CRMLogIn.feature"
   }
 ]
