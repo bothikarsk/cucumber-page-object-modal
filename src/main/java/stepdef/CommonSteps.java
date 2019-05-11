@@ -31,30 +31,27 @@ public class CommonSteps {
 
 	@Given("User opens browser")
 	public void User_opens_browser()throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		//TestBase.initialization();
+	
 		driver.get(projectProperties.getProperty("url"));
 		logger.info("Opened URL");
 	}
 
 	@Then("user on home page")
 	public void user_on_home_page() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		//Assert.equals(homePage.getHomePageTitle().contains("Free CRM software"));
+
 		homePage=new HomePage(driver);
 		loginPage=homePage.clickLogInButton();
 	}
 
 	@Then("user log in")
 	public void user_log_in() throws Throwable{
-		// Write code here that turns the phrase above into concrete actions
+	
 		Assert.assertEquals("CRM",loginPage.getLogInPageTitle());
 		dashboardPage=loginPage.logIn();
 	}
 
 	@Then("user log out")
 	public void user_log_out()throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
 		Assert.assertEquals("CRM",dashboardPage.getDashBoardPageTitle());
 		Assert.assertEquals("Santosh Bothikar",dashboardPage.userTile.getText());
 		loginPage=dashboardPage.logOut();
