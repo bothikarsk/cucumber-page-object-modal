@@ -26,7 +26,6 @@ public class HomePage extends TestBase{
 	public LogInPage clickLogInButton() {
 		wait.until(ExpectedConditions.elementToBeClickable(btn_LogIn)).click();
 		logger.info("Home page log in button clicked");
-		//btn_LogIn.click();
 		return new LogInPage(driver);
 	}
 

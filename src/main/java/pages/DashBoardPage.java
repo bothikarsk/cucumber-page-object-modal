@@ -32,8 +32,6 @@ public class DashBoardPage extends TestBase{
 	public LogInPage logOut() {
 		wait.until(ExpectedConditions.elementToBeClickable(btn_SettingIcon)).click();
 		logger.info("Setting icon button clicked");
-		//btn_SettingIcon.click();
-		//btn_LogOut.click();
 		wait.until(ExpectedConditions.elementToBeClickable(btn_LogOut)).click();
 		logger.info("Log out button clicked");
 		return new LogInPage(driver);
