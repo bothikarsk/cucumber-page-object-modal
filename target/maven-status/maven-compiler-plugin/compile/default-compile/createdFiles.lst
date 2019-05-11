@@ -1,0 +1,9 @@
+pages\LogInPage.class
+pages\DashBoardPage.class
+stepdef\Hooks.class
+pages\HomePage.class
+stepdef\CommonSteps.class
+utils\TestUtils.class
+pages\TestBase.class
+runner\TestRunner.class
+utils\PropertyFileReader.class

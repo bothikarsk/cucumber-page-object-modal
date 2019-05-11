@@ -1,0 +1,60 @@
+17:50:57.735 [main] INFO  pages.HomePage - Home page log in button clicked
+17:50:58.065 [main] INFO  pages.LogInPage - Username text entered
+17:50:58.305 [main] INFO  pages.LogInPage - Password text entered
+17:50:58.372 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+17:51:00.361 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+17:51:00.619 [main] INFO  pages.DashBoardPage - Log out button clicked
+17:58:16.293 [main] INFO  pages.HomePage - Home page log in button clicked
+17:58:16.819 [main] INFO  pages.LogInPage - Username text entered
+17:58:17.061 [main] INFO  pages.LogInPage - Password text entered
+17:58:17.141 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+17:58:19.154 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+17:58:19.513 [main] INFO  pages.DashBoardPage - Log out button clicked
+18:02:11.104 [main] INFO  pages.HomePage - Home page log in button clicked
+18:02:11.426 [main] INFO  pages.LogInPage - Username text entered
+18:02:11.629 [main] INFO  pages.LogInPage - Password text entered
+18:02:11.701 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+18:02:13.660 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+18:02:13.972 [main] INFO  pages.DashBoardPage - Log out button clicked
+18:08:37.045 [main] INFO  pages.HomePage - Home page log in button clicked
+18:08:37.548 [main] INFO  pages.LogInPage - Username text entered
+18:08:37.769 [main] INFO  pages.LogInPage - Password text entered
+18:08:37.841 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+18:08:39.902 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+18:08:40.536 [main] INFO  pages.DashBoardPage - Log out button clicked
+18:49:44.457 [main] INFO  pages.HomePage - Home page log in button clicked
+18:49:46.761 [main] INFO  pages.LogInPage - Username text entered
+18:49:47.294 [main] INFO  pages.LogInPage - Password text entered
+18:49:47.370 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+18:49:51.784 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+18:49:51.959 [main] INFO  pages.DashBoardPage - Log out button clicked
+18:50:20.842 [main] INFO  pages.HomePage - Home page log in button clicked
+18:50:21.184 [main] INFO  pages.LogInPage - Username text entered
+18:50:21.393 [main] INFO  pages.LogInPage - Password text entered
+18:50:21.472 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+18:50:23.519 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+18:50:24.696 [main] INFO  pages.DashBoardPage - Log out button clicked
+19:28:05.936 [main] INFO  pages.HomePage - Home page log in button clicked
+19:28:06.423 [main] INFO  pages.LogInPage - Username text entered
+19:28:06.667 [main] INFO  pages.LogInPage - Password text entered
+19:28:06.738 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+19:28:10.022 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+19:28:10.172 [main] INFO  pages.DashBoardPage - Log out button clicked
+19:28:29.126 [main] INFO  pages.HomePage - Home page log in button clicked
+19:28:29.475 [main] INFO  pages.LogInPage - Username text entered
+19:28:29.702 [main] INFO  pages.LogInPage - Password text entered
+19:28:29.775 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+19:28:31.883 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+19:28:32.207 [main] INFO  pages.DashBoardPage - Log out button clicked
+19:35:36.317 [main] INFO  pages.HomePage - Home page log in button clicked
+19:35:36.761 [main] INFO  pages.LogInPage - Username text entered
+19:35:36.995 [main] INFO  pages.LogInPage - Password text entered
+19:35:37.064 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+19:35:39.330 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+19:35:39.472 [main] INFO  pages.DashBoardPage - Log out button clicked
+19:35:54.728 [main] INFO  pages.HomePage - Home page log in button clicked
+19:35:55.028 [main] INFO  pages.LogInPage - Username text entered
+19:35:55.233 [main] INFO  pages.LogInPage - Password text entered
+19:35:55.308 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+19:35:57.016 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+19:35:57.348 [main] INFO  pages.DashBoardPage - Log out button clicked
