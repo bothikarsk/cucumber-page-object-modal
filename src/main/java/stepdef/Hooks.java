@@ -27,7 +27,7 @@ public class Hooks {
 	public void startUp() {
 
 		browserName=projectProperties.getProperty("browser");
-		
+
 		if(browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +  "/src/main/java/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
@@ -37,42 +37,42 @@ public class Hooks {
 			driver = new InternetExplorerDriver();
 
 		} else if(browserName.equalsIgnoreCase("firefox")) {
-              
+
 			System.setProperty("webdriver.geco.driver", System.getProperty("user.dir") + "/src/main/java/drivers/gecodriver.exe");
 			driver = new FirefoxDriver();
-			
+
 		} else {
 			System.out.println("Default browser");
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		
+
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtils.WAIT_FOR_ELEMENT, TimeUnit.SECONDS);
-		
+
 	}
-	
-	 @After
-	    /**
-	     * Embed a screenshot in test report if test is marked as failed
-	     */
-	    public void tearDown(Scenario scenario) {
-	       
-	        if(scenario.isFailed()) {
-	        try {
-	        	scenario.write("Current Page URL is " + driver.getCurrentUrl());;
-	            byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-	            scenario.embed(screenshot, "image/png");
-	        } catch (WebDriverException somePlatformsDontSupportScreenshots) {
-	            System.err.println(somePlatformsDontSupportScreenshots.getMessage());
-	        }
-	        
-	        }
-	        driver.quit();
-	        
-	    }
+
+	@After
+	/**
+	 * Embed a screenshot in test report if test is marked as failed
+	 */
+	public void tearDown(Scenario scenario) {
+
+		if(scenario.isFailed()) {
+			try {
+				scenario.write("Current Page URL is " + driver.getCurrentUrl());;
+				byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+				scenario.embed(screenshot, "image/png");
+			} catch (WebDriverException somePlatformsDontSupportScreenshots) {
+				System.err.println(somePlatformsDontSupportScreenshots.getMessage());
+			}
+
+		}
+		driver.quit();
+
+	}
 
 
 }

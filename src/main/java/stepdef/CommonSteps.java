@@ -1,7 +1,5 @@
 package stepdef;
 
-
-
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
@@ -17,28 +15,28 @@ import utils.PropertyFileReader;
 
 
 public class CommonSteps {
-	HomePage homePage;
-	LogInPage loginPage;
-	DashBoardPage dashboardPage;
+	
 	public WebDriver driver;
 	protected static Properties projectProperties=PropertyFileReader.readPropertyFile();
 	public static Logger logger=LogManager.getLogger(DashBoardPage.class.getName());
 	
+	HomePage homePage;
+	LogInPage loginPage;
+	DashBoardPage dashboardPage;
+	
 	public  CommonSteps() {
-		// TODO Auto-generated constructor stub
 		driver=Hooks.driver;
 	}
 
 	@Given("User opens browser")
 	public void User_opens_browser()throws Throwable {
-	
 		driver.get(projectProperties.getProperty("url"));
 		logger.info("Opened URL");
 	}
 
 	@Then("user on home page")
 	public void user_on_home_page() throws Throwable {
-
+		
 		homePage=new HomePage(driver);
 		loginPage=homePage.clickLogInButton();
 	}
@@ -57,7 +55,6 @@ public class CommonSteps {
 		loginPage=dashboardPage.logOut();
 		logger.info("Logged out successfully");
 		Assert.assertEquals("CRM",loginPage.getLogInPageTitle());
-
 	}
 
 }

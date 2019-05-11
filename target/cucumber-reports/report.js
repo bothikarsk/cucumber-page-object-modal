@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Validate free crm home page test, @US232454_",
+  "name": "Validate free crm home page test1",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -61,7 +61,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Validate free crm home page test, @US232454_",
+  "name": "Validate free crm home page test2",
   "description": "",
   "keyword": "Scenario",
   "tags": [
