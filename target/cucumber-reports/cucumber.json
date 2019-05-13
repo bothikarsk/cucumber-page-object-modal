@@ -1,0 +1,110 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#mvn -Dcucumber.options\u003d\"--tags @All\" clean test"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6256051733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate free crm home page test1",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test1",
+        "after": [
+          {
+            "result": {
+              "duration": 1476733830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3530593983,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User opens browser",
+            "match": {
+              "location": "CommonSteps.User_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8066871256,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on home page",
+            "match": {
+              "location": "CommonSteps.user_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 628067388,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user log in",
+            "match": {
+              "location": "CommonSteps.user_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2188105587,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user log out",
+            "match": {
+              "location": "CommonSteps.user_log_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@US232454_T43555"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "CRMLogIn.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@All"
+      }
+    ]
+  }
+]

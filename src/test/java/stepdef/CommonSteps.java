@@ -24,7 +24,7 @@ public class CommonSteps {
 	LogInPage loginPage;
 	DashBoardPage dashboardPage;
 	
-	public  CommonSteps() {
+	public CommonSteps() {
 		driver=Hooks.driver;
 	}
 
