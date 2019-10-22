@@ -44,17 +44,17 @@ public class CommonSteps {
 	@Then("user log in")
 	public void user_log_in() throws Throwable{
 	
-		Assert.assertEquals("CRM",loginPage.getLogInPageTitle());
+		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
 		dashboardPage=loginPage.logIn();
 	}
 
 	@Then("user log out")
 	public void user_log_out()throws Throwable {
-		Assert.assertEquals("CRM",dashboardPage.getDashBoardPageTitle());
+		Assert.assertEquals("Cogmento CRM",dashboardPage.getDashBoardPageTitle());
 		Assert.assertEquals("Santosh Bothikar",dashboardPage.userTile.getText());
 		loginPage=dashboardPage.logOut();
 		logger.info("Logged out successfully");
-		Assert.assertEquals("CRM",loginPage.getLogInPageTitle());
+		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
 	}
 
 }
