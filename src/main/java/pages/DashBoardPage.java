@@ -1,7 +1,7 @@
 package pages;
 
+import org.apache.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,9 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class DashBoardPage extends TestBase{
-	
-	public static Logger logger=LogManager.getLogger(DashBoardPage.class.getName());
-	public WebDriverWait wait=new WebDriverWait(driver, 30);
+
+	private Logger logger = Logger.getLogger(DashBoardPage.class);
+	private WebDriverWait wait=new WebDriverWait(driver, 15);
 	
 	public DashBoardPage(WebDriver driver) {
 		super(driver);

@@ -1,20 +1,19 @@
-#mvn -Dcucumber.options="--tags @All" clean test
 @All
 Feature: Free CRM Application Test
 
-@US232454_T43555
-Scenario: Validate free crm home page test1
+Scenario: Validate free crm home page pass test
 
-Given User opens browser
-Then user on home page
-Then user log in
-Then user log out
+  Given User opens browser
+  Then user on home page
+  Then user log in with valid credentials
+  Then user log out
 
-#@US232454_T43556
-#Scenario: Validate free crm home page test2
-#
-#Given User opens browser
-#Then user on home page
-#Then user log in
-#Then user log out
+
+  Scenario: Validate free crm fail test
+
+    Given User opens browser
+    Then user on home page
+    Then user log in invalid credentials
+
+
 

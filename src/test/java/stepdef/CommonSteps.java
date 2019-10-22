@@ -1,28 +1,24 @@
 package stepdef;
 
-import java.util.Properties;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-
-import cucumber.api.java.en.*;
+import pagebucket.PageBucket;
 import pages.DashBoardPage;
 import pages.HomePage;
-import pages.LogInPage;
 import utils.PropertyFileReader;
 
+import java.util.Properties;
 
-public class CommonSteps {
+
+public class CommonSteps extends PageBucket {
 	
-	public WebDriver driver;
+	private WebDriver driver;
 	protected static Properties projectProperties=PropertyFileReader.readPropertyFile();
-	public static Logger logger=LogManager.getLogger(DashBoardPage.class.getName());
-	
-	HomePage homePage;
-	LogInPage loginPage;
-	DashBoardPage dashboardPage;
+	private Logger logger = Logger.getLogger(CommonSteps.class);
+
 	
 	public CommonSteps() {
 		driver=Hooks.driver;
@@ -41,12 +37,6 @@ public class CommonSteps {
 		loginPage=homePage.clickLogInButton();
 	}
 
-	@Then("user log in")
-	public void user_log_in() throws Throwable{
-	
-		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
-		dashboardPage=loginPage.logIn();
-	}
 
 	@Then("user log out")
 	public void user_log_out()throws Throwable {
@@ -57,4 +47,17 @@ public class CommonSteps {
 		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
 	}
 
+	@Then("user log in with valid credentials")
+	public void userLogInWithValidCredentials() {
+		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
+		dashboardPage=loginPage.logIn();
+	}
+
+	@Then("user log in invalid credentials")
+	public void userLogInInvalidCredentials() {
+		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
+		loginPage.InvalidlogIn();
+		Assert.assertEquals("Something went wrong.",loginPage.getInvalidLogInValidationText());
+
+	}
 }

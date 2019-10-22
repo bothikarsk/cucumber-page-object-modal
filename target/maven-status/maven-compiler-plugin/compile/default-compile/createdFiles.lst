@@ -1,6 +1,7 @@
 pages\LogInPage.class
-utils\TestUtils.class
 pages\DashBoardPage.class
+pages\HomePage.class
+utils\TestUtils.class
 pages\TestBase.class
 utils\PropertyFileReader.class
-pages\HomePage.class
+pagebucket\PageBucket.class

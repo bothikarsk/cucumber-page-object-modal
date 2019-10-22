@@ -24,9 +24,12 @@ public class TestRunner {
 
     @AfterClass
     public static void afterClass() {
+
         CucumberDetailedResults results = new CucumberDetailedResults();
         results.setOutputDirectory("target/");
         results.setOutputName("cucumber-results");
+        results.setScreenShotLocation("target/cucumber-reports/cucumber-html-reports/embeddings/");
+        results.setScreenShotWidth("500px");
         results.setSourceFile("target/report.json");
         try {
             results.execute(true, true);
