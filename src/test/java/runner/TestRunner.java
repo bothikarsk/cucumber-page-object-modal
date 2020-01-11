@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         glue = {"stepdef"},
-        tags = "@Fail",
         plugin = {"pretty",
                 /*"html:target/html-report",*/
                 "json:target/report.json",
