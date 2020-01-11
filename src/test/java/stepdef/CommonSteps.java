@@ -57,7 +57,7 @@ public class CommonSteps extends PageBucket {
 	public void userLogInInvalidCredentials() {
 		Assert.assertEquals("Cogmento CRM",loginPage.getLogInPageTitle());
 		loginPage.InvalidlogIn();
-		Assert.assertEquals("Something went wrong.",loginPage.getInvalidLogInValidationText());
+		Assert.assertEquals("Something went wrong...",loginPage.getInvalidLogInValidationText());
 
 	}
 }

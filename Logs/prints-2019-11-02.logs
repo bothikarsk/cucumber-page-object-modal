@@ -1,0 +1,137 @@
+17:15:27.514 [main] INFO  pages.DashBoardPage - Log out button clicked
+17:15:27.538 [main] INFO  pages.DashBoardPage - Logged out successfully
+17:17:08.507 [main] INFO  pages.DashBoardPage - Opened URL
+17:17:19.529 [main] INFO  pages.HomePage - Home page log in button clicked
+17:17:19.889 [main] INFO  pages.LogInPage - Username text entered
+17:17:20.210 [main] INFO  pages.LogInPage - Password text entered
+17:17:25.418 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+17:17:32.463 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+17:17:37.999 [main] INFO  pages.DashBoardPage - Log out button clicked
+17:17:37.999 [main] INFO  pages.DashBoardPage - Logged out successfully
+17:19:00.868 [main] INFO  pages.DashBoardPage - Opened URL
+17:19:07.298 [main] INFO  pages.HomePage - Home page log in button clicked
+17:19:07.654 [main] INFO  pages.LogInPage - Username text entered
+17:19:07.898 [main] INFO  pages.LogInPage - Password text entered
+17:19:07.998 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+17:19:09.973 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+17:19:10.457 [main] INFO  pages.DashBoardPage - Log out button clicked
+17:19:10.457 [main] INFO  pages.DashBoardPage - Logged out successfully
+14:44:23.512 [main] INFO  pages.DashBoardPage - Opened URL
+14:44:29.171 [main] INFO  pages.HomePage - Home page log in button clicked
+14:44:29.512 [main] INFO  pages.LogInPage - Username text entered
+14:44:29.719 [main] INFO  pages.LogInPage - Password text entered
+14:44:29.794 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+14:44:32.186 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+14:44:32.857 [main] INFO  pages.DashBoardPage - Log out button clicked
+14:44:32.858 [main] INFO  pages.DashBoardPage - Logged out successfully
+14:47:15.638 [main] INFO  pages.DashBoardPage - Opened URL
+14:47:21.478 [main] INFO  pages.HomePage - Home page log in button clicked
+14:47:21.824 [main] INFO  pages.LogInPage - Username text entered
+14:47:22.032 [main] INFO  pages.LogInPage - Password text entered
+14:47:22.101 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+14:47:24.255 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+14:47:24.879 [main] INFO  pages.DashBoardPage - Log out button clicked
+14:47:24.880 [main] INFO  pages.DashBoardPage - Logged out successfully
+14:51:11.299 [main] INFO  pages.DashBoardPage - Opened URL
+14:51:17.643 [main] INFO  pages.HomePage - Home page log in button clicked
+14:51:18.002 [main] INFO  pages.LogInPage - Username text entered
+14:51:18.240 [main] INFO  pages.LogInPage - Password text entered
+14:51:18.318 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+14:51:20.264 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+14:51:20.760 [main] INFO  pages.DashBoardPage - Log out button clicked
+14:51:20.760 [main] INFO  pages.DashBoardPage - Logged out successfully
+14:54:20.834 [main] INFO  pages.DashBoardPage - Opened URL
+14:54:27.434 [main] INFO  pages.HomePage - Home page log in button clicked
+14:54:27.765 [main] INFO  pages.LogInPage - Username text entered
+14:54:27.951 [main] INFO  pages.LogInPage - Password text entered
+14:54:28.015 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+14:54:29.968 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+14:54:30.583 [main] INFO  pages.DashBoardPage - Log out button clicked
+14:54:30.584 [main] INFO  pages.DashBoardPage - Logged out successfully
+14:58:47.907 [main] INFO  pages.DashBoardPage - Opened URL
+14:58:53.858 [main] INFO  pages.HomePage - Home page log in button clicked
+14:58:54.179 [main] INFO  pages.LogInPage - Username text entered
+14:58:54.371 [main] INFO  pages.LogInPage - Password text entered
+14:58:54.442 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+14:58:56.321 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+14:58:57.072 [main] INFO  pages.DashBoardPage - Log out button clicked
+14:58:57.072 [main] INFO  pages.DashBoardPage - Logged out successfully
+15:00:15.359 [main] INFO  pages.DashBoardPage - Opened URL
+15:00:21.578 [main] INFO  pages.HomePage - Home page log in button clicked
+15:00:21.901 [main] INFO  pages.LogInPage - Username text entered
+15:00:22.098 [main] INFO  pages.LogInPage - Password text entered
+15:00:22.163 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+15:00:24.210 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+15:00:24.896 [main] INFO  pages.DashBoardPage - Log out button clicked
+15:00:24.897 [main] INFO  pages.DashBoardPage - Logged out successfully
+15:19:18.904 [main] INFO  pages.DashBoardPage - Opened URL
+15:19:25.212 [main] INFO  pages.HomePage - Home page log in button clicked
+15:19:25.615 [main] INFO  pages.LogInPage - Username text entered
+15:19:25.891 [main] INFO  pages.LogInPage - Password text entered
+15:19:25.993 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+15:19:27.961 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+15:19:28.617 [main] INFO  pages.DashBoardPage - Log out button clicked
+15:19:28.618 [main] INFO  pages.DashBoardPage - Logged out successfully
+15:27:02.899 [main] INFO  pages.DashBoardPage - Opened URL
+15:27:08.847 [main] INFO  pages.HomePage - Home page log in button clicked
+15:27:09.178 [main] INFO  pages.LogInPage - Username text entered
+15:27:09.386 [main] INFO  pages.LogInPage - Password text entered
+15:27:09.462 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+15:27:11.680 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+15:27:11.944 [main] INFO  pages.DashBoardPage - Log out button clicked
+15:27:11.944 [main] INFO  pages.DashBoardPage - Logged out successfully
+15:35:13.486 [main] INFO  pages.DashBoardPage - Opened URL
+15:35:19.150 [main] INFO  pages.HomePage - Home page log in button clicked
+15:35:19.476 [main] INFO  pages.LogInPage - Username text entered
+15:35:19.670 [main] INFO  pages.LogInPage - Password text entered
+15:35:19.732 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+15:35:21.557 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+15:35:22.061 [main] INFO  pages.DashBoardPage - Log out button clicked
+15:35:22.061 [main] INFO  pages.DashBoardPage - Logged out successfully
+16:14:12.460 [main] INFO  pages.HomePage - Home page log in button clicked
+16:14:12.765 [main] INFO  pages.LogInPage - Username text entered
+16:14:12.979 [main] INFO  pages.LogInPage - Password text entered
+16:14:13.057 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+16:14:15.467 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+16:14:16.071 [main] INFO  pages.DashBoardPage - Log out button clicked
+16:17:21.662 [main] INFO  pages.HomePage - Home page log in button clicked
+16:17:21.969 [main] INFO  pages.LogInPage - Username text entered
+16:17:22.164 [main] INFO  pages.LogInPage - Password text entered
+16:17:22.231 [main] INFO  pages.LogInPage - LoginPage page log in button clicked
+16:17:24.295 [main] INFO  pages.DashBoardPage - Setting icon button clicked
+16:17:24.617 [main] INFO  pages.DashBoardPage - Log out button clicked
+16:39:17.562 [main] INFO  pages.HomePage - Home page log in button clicked
+16:39:35.077 [main] INFO  pages.HomePage - Home page log in button clicked
+16:51:50.757 [main] INFO  pages.HomePage - Home page log in button clicked
+16:52:08.769 [main] INFO  pages.HomePage - Home page log in button clicked
+16:56:17.979 [main] INFO  pages.HomePage - Home page log in button clicked
+16:56:36.837 [main] INFO  pages.HomePage - Home page log in button clicked
+16:59:22.193 [main] INFO  pages.HomePage - Home page log in button clicked
+16:59:40.651 [main] INFO  pages.HomePage - Home page log in button clicked
+17:04:02.368 [main] INFO  pages.HomePage - Home page log in button clicked
+17:04:20.994 [main] INFO  pages.HomePage - Home page log in button clicked
+17:05:47.530 [main] INFO  pages.HomePage - Home page log in button clicked
+17:06:05.247 [main] INFO  pages.HomePage - Home page log in button clicked
+17:20:33.999 [main] INFO  pages.HomePage - Home page log in button clicked
+17:20:52.389 [main] INFO  pages.HomePage - Home page log in button clicked
+09:31:32.789 [main] INFO  pages.HomePage - Home page log in button clicked
+09:31:49.727 [main] INFO  pages.HomePage - Home page log in button clicked
+09:53:16.257 [main] INFO  pages.HomePage - Home page log in button clicked
+09:53:32.672 [main] INFO  pages.HomePage - Home page log in button clicked
+11:46:44.426 [main] INFO  pages.HomePage - Home page log in button clicked
+11:47:02.115 [main] INFO  pages.HomePage - Home page log in button clicked
+11:54:38.844 [main] INFO  pages.HomePage - Home page log in button clicked
+11:54:55.814 [main] INFO  pages.HomePage - Home page log in button clicked
+11:57:10.704 [main] INFO  pages.HomePage - Home page log in button clicked
+11:57:28.007 [main] INFO  pages.HomePage - Home page log in button clicked
+12:08:49.013 [main] INFO  pages.HomePage - Home page log in button clicked
+12:09:05.417 [main] INFO  pages.HomePage - Home page log in button clicked
+12:13:09.752 [main] INFO  pages.HomePage - Home page log in button clicked
+12:13:27.217 [main] INFO  pages.HomePage - Home page log in button clicked
+12:16:00.806 [main] INFO  pages.HomePage - Home page log in button clicked
+12:16:17.387 [main] INFO  pages.HomePage - Home page log in button clicked
+12:20:25.547 [main] INFO  pages.HomePage - Home page log in button clicked
+12:22:35.444 [main] INFO  pages.HomePage - Home page log in button clicked
+12:24:41.516 [main] INFO  pages.HomePage - Home page log in button clicked
+12:26:01.842 [main] INFO  pages.HomePage - Home page log in button clicked
+12:28:39.211 [main] INFO  pages.HomePage - Home page log in button clicked
