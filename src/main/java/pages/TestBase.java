@@ -16,7 +16,7 @@ public class TestBase {
 
 	public TestBase(WebDriver driver){
 		this.driver = driver;
-		AjaxElementLocatorFactory factory= new AjaxElementLocatorFactory(driver,60);
+		AjaxElementLocatorFactory factory= new AjaxElementLocatorFactory(driver,30);
 		PageFactory.initElements(factory, this);
 	}
 

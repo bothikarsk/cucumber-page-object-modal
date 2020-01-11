@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         glue = {"stepdef"},
+        tags = "@All",
         plugin = {"pretty",
                 /*"html:target/html-report",*/
                 "json:target/report.json",
@@ -26,28 +27,23 @@ public class TestRunner {
     public static void afterClass() {
 
         CucumberDetailedResults results = new CucumberDetailedResults();
+        CucumberResultsOverview resultsOverview= new CucumberResultsOverview();
         results.setOutputDirectory("target/");
         results.setOutputName("cucumber-results");
+        results.setSourceFile("target/report.json");
         results.setScreenShotLocation("target/cucumber-reports/cucumber-html-reports/embeddings/");
         results.setScreenShotWidth("500px");
-        results.setSourceFile("target/report.json");
+
+        resultsOverview.setOutputDirectory("target/");
+        resultsOverview.setOutputName("cucumber-OverviewResults");
+        resultsOverview.setSourceFile("target/report.json");
         try {
-            results.execute(true, true);
+            results.execute(true);
+            resultsOverview.execute();
             System.out.println("Report generated");
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        CucumberResultsOverview resultsOverviewe =new CucumberResultsOverview();
-        resultsOverviewe.setOutputDirectory("target/");
-        resultsOverviewe.setOutputName("result-overview");
-        resultsOverviewe.setSourceFile("target/report.json");
-        try {
-            resultsOverviewe.execute(true,true);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
 

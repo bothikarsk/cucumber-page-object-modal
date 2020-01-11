@@ -9,6 +9,7 @@ Scenario: Validate free crm home page pass test
   Then user log out
 
 
+  @Fail
   Scenario: Validate free crm fail test
 
     Given User opens browser
